@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Make", "Make\Make.csproj", "{D5975C77-4923-4F60-9E32-A2972D877A0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakePi", "MakePi\MakePi.csproj", "{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,24 @@ Global
 		{D5975C77-4923-4F60-9E32-A2972D877A0C}.Release|x86.ActiveCfg = Release|x86
 		{D5975C77-4923-4F60-9E32-A2972D877A0C}.Release|x86.Build.0 = Release|x86
 		{D5975C77-4923-4F60-9E32-A2972D877A0C}.Release|x86.Deploy.0 = Release|x86
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Debug|ARM.Build.0 = Debug|ARM
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Debug|x64.ActiveCfg = Debug|x64
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Debug|x64.Build.0 = Debug|x64
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Debug|x64.Deploy.0 = Debug|x64
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Debug|x86.ActiveCfg = Debug|x86
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Debug|x86.Build.0 = Debug|x86
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Debug|x86.Deploy.0 = Debug|x86
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Release|ARM.ActiveCfg = Release|ARM
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Release|ARM.Build.0 = Release|ARM
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Release|ARM.Deploy.0 = Release|ARM
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Release|x64.ActiveCfg = Release|x64
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Release|x64.Build.0 = Release|x64
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Release|x64.Deploy.0 = Release|x64
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Release|x86.ActiveCfg = Release|x86
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Release|x86.Build.0 = Release|x86
+		{B16771F2-0E4B-4F7F-A16A-AF7A49FAF7DA}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
