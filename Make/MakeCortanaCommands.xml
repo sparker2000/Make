@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+   <CommandSet xml:lang="en-us" Name="MakeCommandSet_en-us">
+      <CommandPrefix> Make, </CommandPrefix>
+      <Example>Make</Example>
+
+      <Command Name="sayHello">
+         <Example> Hello </Example>
+         <ListenFor> Hello Cortana </ListenFor>
+         <Feedback> Hello Joseph. </Feedback>
+         <Navigate/>
+      </Command>
+
+      <Command Name="LedState">
+         <Example> Make LED 5 turn on </Example>
+         <ListenFor> LED {Number} {State} </ListenFor>
+         <Feedback> Making LED {Number} {State}. </Feedback>
+         <Navigate/>
+      </Command>
+      
+      <!--State to set the LEDs-->
+      <PhraseList Label="State">
+         <Item>turn on</Item>
+         <Item>turn off</Item>
+         <Item>Toggle</Item>
+      </PhraseList>
+
+      <!--Valid LED Numbers for a Raspberry Pi 2 Model B-->
+      <PhraseList Label="Number">
+         <Item>two</Item>
+         <Item>three</Item>
+         <Item>four</Item>
+         <Item>five</Item>
+         <Item>six</Item>
+         <Item>seven</Item>
+         <Item>eight</Item>
+         <Item>nine</Item>
+         <Item>ten</Item>
+         <!-- Having issues.. Cortana thinks when I say 5, that I'm saying twenty-five.
+         <Item>eleven</Item>
+         <Item>twelve</Item>
+         <Item>thirteen</Item>
+         <Item>fourteen</Item>
+         <Item>fifteen</Item>
+         <Item>sixteen</Item>
+         <Item>seventeen</Item>
+         <Item>eighteen</Item>
+         <Item>nineteen</Item>
+         <Item>twenty</Item>
+         <Item>twenty-one</Item>
+         <Item>twenty-two</Item>
+         <Item>twenty-three</Item>
+         <Item>twenty-four</Item>
+         <Item>twenty-five</Item>
+         <Item>twenty-six</Item>
+         <Item>twenty-seven</Item>-->
+         <Item>2</Item>
+         <Item>3</Item>
+         <Item>4</Item>
+         <Item>5</Item>
+         <Item>6</Item>
+         <Item>7</Item>
+         <Item>8</Item>
+         <Item>9</Item>
+         <Item>10</Item>
+         <!--
+         <Item>11</Item>
+         <Item>12</Item>
+         <Item>13</Item>
+         <Item>14</Item>
+         <Item>15</Item>
+         <Item>16</Item>
+         <Item>17</Item>
+         <Item>18</Item>
+         <Item>19</Item>
+         <Item>20</Item>
+         <Item>21</Item>
+         <Item>22</Item>
+         <Item>23</Item>
+         <Item>24</Item>
+         <Item>25</Item>
+         <Item>26</Item>
+         <Item>27</Item>-->
+      </PhraseList>
+
+   </CommandSet>
+</VoiceCommands>
